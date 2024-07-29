@@ -4,6 +4,8 @@ This module contains a function that detects emotions on a given text / phrase
 import json
 import requests
 
+# NOTE: Don't try to use this
+# This won't work unless you are in the labs environment
 URL = "https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict"
 HEADERS = {"grpc-metadata-mm-model-id": "emotion_aggregated-workflow_lang_en_stock"}
 
